@@ -1,5 +1,5 @@
 // @flow
-import {cast as remote, core} from 'kaltura-player-js';
+import {cast as remote, core} from 'vidiun-player-js';
 import {INTERVAL_FREQUENCY} from './cast-player';
 
 const {TextStyleConverter} = remote;

@@ -1,5 +1,5 @@
 // @flow
-import {cast, ui} from 'kaltura-player-js';
+import {cast, ui} from 'vidiun-player-js';
 
 // eslint-disable-next-line no-unused-vars
 const {style, Components} = ui;

@@ -1,5 +1,5 @@
 //@flow
-import {core} from 'kaltura-player-js';
+import {core} from 'vidiun-player-js';
 
 const {State, FakeEvent, EventType, FakeEventTarget, StateType} = core;
 

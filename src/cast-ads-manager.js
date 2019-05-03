@@ -1,6 +1,6 @@
 // @flow
 import {CastPlayer} from './cast-player';
-import {core} from 'kaltura-player-js';
+import {core} from 'vidiun-player-js';
 
 const {EventManager, EventType, FakeEventTarget} = core;
 
