@@ -1,6 +1,6 @@
 // @flow
 import {CUSTOM_CHANNEL} from './cast-player';
-import {cast as remote} from 'kaltura-player-js';
+import {cast as remote} from 'vidiun-player-js';
 
 const {CustomActionMessage, CustomActionType} = remote;
 

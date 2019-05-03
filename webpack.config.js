@@ -29,12 +29,12 @@ if (PROD) {
 module.exports = {
   context: __dirname + '/src',
   entry: {
-    'playkit-cast-sender': 'index.js'
+    'pakhshkit-cast-sender': 'index.js'
   },
   output: {
     path: __dirname + '/dist',
     filename: '[name].js',
-    library: ['KalturaPlayer', 'cast', 'sender'],
+    library: ['VidiunPlayer', 'cast', 'sender'],
     libraryTarget: 'umd',
     umdNamedDefine: true,
     devtoolModuleFilenameTemplate: './cast/sender/[resource-path]'
@@ -76,11 +76,11 @@ module.exports = {
     modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
   externals: {
-    'kaltura-player-js': {
-      commonjs: 'kaltura-player-js',
-      commonjs2: 'kaltura-player-js',
-      amd: 'kaltura-player-js',
-      root: ['KalturaPlayer']
+    'vidiun-player-js': {
+      commonjs: 'vidiun-player-js',
+      commonjs2: 'vidiun-player-js',
+      amd: 'vidiun-player-js',
+      root: ['VidiunPlayer']
     }
   }
 };

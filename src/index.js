@@ -1,6 +1,6 @@
 // @flow
 import {CastPlayer} from './cast-player';
-import {cast} from 'kaltura-player-js';
+import {cast} from 'vidiun-player-js';
 
 const {registerRemotePlayer} = cast;
 

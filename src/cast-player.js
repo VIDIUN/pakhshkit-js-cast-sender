@@ -1,5 +1,5 @@
 // @flow
-import {cast as remote, core} from 'kaltura-player-js';
+import {cast as remote, core} from 'vidiun-player-js';
 import {CastStateManager} from './cast-state-manager';
 import {CastTracksManager} from './cast-tracks-manager';
 import {CastPlaybackEngine} from './cast-playback-engine';
@@ -25,7 +25,7 @@ const {
 
 export const INTERVAL_FREQUENCY = 500;
 export const SECONDS_TO_MINUTES_DIVIDER = 60;
-export const CUSTOM_CHANNEL = 'urn:x-cast:com.kaltura.cast.playkit';
+export const CUSTOM_CHANNEL = 'urn:x-cast:com.vidiun.cast.pakhshkit';
 
 /**
  * Cast Sender Player.

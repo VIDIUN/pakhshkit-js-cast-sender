@@ -1,7 +1,7 @@
 {
-  "name": "@playkit-js/playkit-js-cast-sender",
+  "name": "@pakhshkit-js/pakhshkit-js-cast-sender",
   "version": "0.2.4",
-  "main": "dist/playkit-cast-sender.js",
+  "main": "dist/pakhshkit-cast-sender.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -59,7 +59,7 @@
     "flow-bin": "latest",
     "husky": "^0.14.3",
     "istanbul": "^0.4.5",
-    "kaltura-player-js": "https://github.com/kaltura/kaltura-player-js.git#master",
+    "vidiun-player-js": "https://github.com/vidiun/vidiun-player-js.git#master",
     "karma": "^1.5.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.0.0",
@@ -92,25 +92,25 @@
     "cast",
     "google cast sdk",
     "cast sender",
-    "kaltura",
+    "vidiun",
     "player",
-    "playkit-js",
-    "playkit-js-cast-sender",
+    "pakhshkit-js",
+    "pakhshkit-js-cast-sender",
     "html5 player"
   ],
   "license": "AGPL-3.0",
-  "kcc": {
-    "name": "playkit-cast-sender"
+  "vcc": {
+    "name": "pakhshkit-cast-sender"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-cast-sender.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-cast-sender.git"
   },
   "peerDependencies": {
-    "kaltura-player-js": "https://github.com/kaltura/kaltura-player-js.git#master"
+    "vidiun-player-js": "https://github.com/vidiun/vidiun-player-js.git#master"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-cast-sender/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-cast-sender/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-cast-sender#readme"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-cast-sender#readme"
 }
